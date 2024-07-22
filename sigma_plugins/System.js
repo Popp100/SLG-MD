@@ -395,7 +395,7 @@ if(isCreator && text != "")
   
          
         
-          image = aliv.image || false;
+          image = aliv.image || true;
           video=aliv.video || false ;
           urll = aliv.url || await botpic() ;
 
