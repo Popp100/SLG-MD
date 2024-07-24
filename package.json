@@ -1,17 +1,23 @@
+/**
+
+Voici le fichier `package.json` mis à jour pour inclure la dépendance `os` :
+
+```json 
+
+**/
+
 {
-  "name": "SLG-MD",
-  "version": "10.8.1",
-  "description": "SLG latest multi device whatsapp bot",
+  "name": "veyron-MD",
+  "version": "4.0",
+  "description": "Multi device whatsapp bot by Thushan.",
   "main": "lib/client.js",
-  "type": "module",
-  "scripts": {
-    "start": "pm2 start lib/client.js --deep-monitoring --attach --name SLG-MD",
-    "stop": "pm2 stop SLG-MD",
-    "restart": "pm2 restart SLG-MD"
-  },
-  "keywords": ["slg-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "RUBEN",
+  "type": "commonjs",
   "license": "GPL-3.0",
+  "scripts": {
+    "start": "pm2 start lib/client.js --deep-monitoring --attach --name veyron-md",
+    "stop": "pm2 stop veyron-md"
+  },
+  "author": "Veyron md",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "latest",
@@ -45,7 +51,6 @@
     "file-type": "^19.0.0",
     "fluent-ffmpeg": "^2.1.3",
     "form-data": "^4.0.0",
-    "fs": "^0.0.1-security",
     "fs-extra": "^10.1.0",
     "google-it": "^1.6.4",
     "google-tts-api": "^2.0.2",
@@ -68,8 +73,8 @@
     "node-fetch": "^3.3.2",
     "node-os-utils": "^1.3.7",
     "node-webpmux": "^3.2.0",
-    "os": "^0.1.2",
     "openai": "3.0.0",
+    "os": "^0.1.1",
     "pastebin-js": "latest",
     "path": "^0.12.7",
     "pino": "^8.20.0",
@@ -96,5 +101,18 @@
   "directories": {
     "lib": "lib",
     "assets": "lib/assets"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GEEKMDXINC/Veyron-MD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GEEKMDXINC/Veyron-MD/issues"
+  },
+  "homepage": "https://github.com/GEEKMDXINC/Veyron-MD#readme"
 }
+
+/**
+
+Cela inclut maintenant la dépendance `os`. Si tu as besoin d'autres modifications, fais-le moi savoir !
+**/
