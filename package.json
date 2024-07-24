@@ -11,7 +11,7 @@
   },
   "keywords": ["slg-md", "whatsapp-bot", "whatsapp md bot"],
   "author": "RUBEN",
-  "license": "apache 2.0",
+  "license": "GPL-3.0",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "latest",
