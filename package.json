@@ -1,21 +1,15 @@
-/**
 
-Voici le fichier `package.json` mis à jour pour inclure la dépendance `os` :
-
-```json 
-
-**/
 
 {
-  "name": "veyron-MD",
+  "name": "slg-MD",
   "version": "4.0",
   "description": "Multi device whatsapp bot by Thushan.",
   "main": "lib/client.js",
   "type": "commonjs",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "pm2 start lib/client.js --deep-monitoring --attach --name veyron-md",
-    "stop": "pm2 stop veyron-md"
+    "start": "pm2 start lib/client.js --deep-monitoring --attach --name slg-md",
+    "stop": "pm2 stop slg-md"
   },
   "author": "Veyron md",
   "dependencies": {
@@ -104,15 +98,10 @@ Voici le fichier `package.json` mis à jour pour inclure la dépendance `os` :
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GEEKMDXINC/Veyron-MD.git"
+    "url": "git+https://github.com/GEEKMDXINC/SLG-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/GEEKMDXINC/Veyron-MD/issues"
+    "url": "https://github.com/GEEKMDXINC/SLG-MD/issues"
   },
-  "homepage": "https://github.com/GEEKMDXINC/Veyron-MD#readme"
+  "homepage": "https://github.com/GEEKMDXINC/SLG-MD#readme"
 }
-
-/**
-
-Cela inclut maintenant la dépendance `os`. Si tu as besoin d'autres modifications, fais-le moi savoir !
-**/
