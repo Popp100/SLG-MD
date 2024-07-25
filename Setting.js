@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════,[Make sure you put all values in "" , '']\\
-global.owner = process.env.OWNER_NUMBER || '923466319114' ; // Add Your Number without +
+global.owner = process.env.OWNER_NUMBER || '237693755398' ; // Add Your Number without +
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Maher-Zubair:SIGMA-MD@zubi.9g6b16y.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp" ; // put mongodb key here
 global.port=5000  ;
 global.audio = '' ; 
@@ -11,20 +11,20 @@ global.video = '' ;
 global.blockJids = process.env.BLOCK_JID ||'120363169665426586@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363169665426586@g.us' ;
 global.email = 'HELP_SIGMA-MD@outlook.com' ; 
-global.github = 'https://github.com/Maher-Zubair/SIGMA-MD' ;
-global.location = 'Lahore Pakistan' ;
+global.github = 'https://github.com/GEEKMDXINC/SLG-MD' ;
+global.location = 'Yaounde cameroun' ;
 global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' //add correct timezone or leave it same , otherwise you get erros
 global.gurl = 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1' ; 
 global.sudo =  process.env.SUDO || "923466319114" ; // Do not change it
 global.devs = "923466319114"; //Dont change it From here
-global.mztit = process.env.MZTIT ||"🅼♥︎❚❚♥︎🆉", // add your title here
-global.Gname = process.env.GNAME ||"sɪɢᴍᴀ ᴹᴰ-sᴜᴘᴘᴏʀᴛ",
+global.mztit = process.env.MZTIT ||"SLG", // add your title here
+global.Gname = process.env.GNAME ||"SLG ᴹᴰ-sᴜᴘᴘᴏʀᴛ",
 global.zyt = process.env.ZYT || 'https://www.youtube.com/@InnoxentTech?sub_confirmation=1',
 global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/CmY0THcJCUYEGxLJulhcRV",
 global.website = 'http://lnkiy.in/SIGMA-MD-WEB' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6e2057568db8926.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || 'Ethix-MD&5YnKrpFv',      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || '',      //Put Your Session Id Here
   botname: process.env.BOT_NAME || 'sɪɢᴍᴀ ᴹᴰ',  // add the botname you want
   ownername:  process.env.OWNER_NAME || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // add your name
   author:  process.env.PACK_AUTHER || 'ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ', 
@@ -47,7 +47,7 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "34wcCGPoe3yaGtpiBZgx4SN7", // add your remove bg key if you have it
-  caption :process.env.CAPTION || "\t*⤹★ᴘᴏᴡᴇʀᴇᴅ ʙʏ★⤸ sɪɢᴍᴀ ᴹᴰ* ",   //*『sᴜʙsᴄʀɪʙᴇ • ɪɴɴᴏxᴇɴᴛ ᴛᴇᴄʜ』https://www.youtube.com/@InnoxentTech,
+  caption :process.env.CAPTION || "\t*⤹★ᴘᴏᴡᴇʀᴇᴅ ʙʏ★⤸ sLG ᴹᴰ* ",   //*『sᴜʙsᴄʀɪʙᴇ • ɪɴɴᴏxᴇɴᴛ ᴛᴇᴄʜ』https://www.youtube.com/@InnoxentTech,
   promote_demote_messages : process.env.PROMOTE_DEMOTE_MESSAGES || 'true' ,
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' , // add your openai key if you have it
   VERSION: process.env.VERSION || '𝚅.𝟷.𝟸.𝟽',
