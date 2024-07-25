@@ -4,21 +4,21 @@
   "version": "1.5.3",
   "description": "A CRAZY WHATSAPP BOT BY Maher Zubair",
   "main": "lib/client.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "start": "pm2 start lib/client.js --deep-monitoring --attach --name SIGMA-MD",
+    "start": "pm2 start lib/client.js --deep-monitoring --attach --name SLG-MD",
     "stop": "pm2 stop SLG-MD"
   },
-  "author": "Maher-Zubair",
+  "author": "GEEK",
   "license": "Apache-2.0",
   "keywords": [
     "bot",
     "Whatsapp bot",
-    "sigma-md",
-    "sigma",
+    "slg-md",
+    "slg",
     "sigma-md bot",
-    "SIGMA-MD",
-    "Maher-Zubair",
+    "SLG-MD",
+    "GEZK",
     "Multi-Device Bot",
     "WaBot",
     "Baileys Bot"
