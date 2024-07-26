@@ -3,10 +3,10 @@
   "name": "slg-md",
   "version": "1.5.3",
   "description": "A CRAZY WHATSAPP BOT BY Maher Zubair",
-  "main": "lib/client.js",
+  "main": "lib/base.cjs",
   "type": "module",
   "scripts": {
-    "start": "pm2 start lib/client.js --deep-monitoring --attach --name SLG-MD",
+    "start": "pm2 start lib/base.cjs --deep-monitoring --attach --name SLG-MD",
     "stop": "pm2 stop SLG-MD"
   },
   "author": "GEEK",
