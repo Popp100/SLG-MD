@@ -3,7 +3,7 @@
   "version": "10.8.1",
   "description": "SLG-MD latest multi device whatsapp bot",
   "main": "lib/base.cjs",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "pm2 start lib/base.cjs --deep-monitoring --attach --name SLG-MD",
     "stop": "pm2 stop SLG-MD",
