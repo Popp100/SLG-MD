@@ -5,7 +5,7 @@
   "main": "lib/base.cjs",
   "type": "module",
   "scripts": {
-    "start": "pm2 start lib/base.cjs --deep-monitoring --attach --name Ethix-MD",
+    "start": "pm2 start lib/base.cjs --deep-monitoring --attach --name SLG-MD",
     "stop": "pm2 stop SLG-MD",
     "restart": "pm2 restart SLG-MD"
   },
