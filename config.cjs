@@ -25,7 +25,7 @@ global.website = 'http://lnkiy.in/SIGMA-MD-WEB';
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/03e49e6e2057568db8926.jpg';
 
 module.exports = {
-    sessionName: process.env.SESSION_ID || 'SLG-MD~baE0Wg2V', // Put Your Session Id Here
+    sessionName: process.env.SESSION_ID || '', // Put Your Session Id Here
     botname: process.env.BOT_NAME || 'sɪɢᴍᴀ ᴹᴰ', // add the botname you want
     ownername: process.env.OWNER_NAME || 'ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ', // add your name
     author: process.env.PACK_AUTHER || 'ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ',
