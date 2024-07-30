@@ -28,7 +28,7 @@ import * as os from 'os';
 import config from '../config.cjs';
 import pkg from '../lib/autoreact.cjs';
 const { emojis, doReact } = pkg;
-
+const config = require('/workspaces/config.cjs');
 const sessionName = "session";
 const app = express();
 const orange = chalk.bold.hex("#FFA500");
