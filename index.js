@@ -1,3 +1,4 @@
+import config from '/workspaces/config.cjs';
 import dotenv from 'dotenv';
 dotenv.config();
 
